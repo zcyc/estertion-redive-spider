@@ -1,6 +1,6 @@
 # estertion-redive-sound-spider
 
-spider for download all files from https://redive.estertion.win/sound/
+spider for download all files from https://redive.estertion.win/sound/ and https://redive.estertion.win/movie/
 
 the spider is only for macOS or linux
 
