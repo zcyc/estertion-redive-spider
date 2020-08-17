@@ -1,2 +1,7 @@
 # estertion-redive-sound-spider
-download all files in https://redive.estertion.win/sound/
+
+spider for download all files from https://redive.estertion.win/sound/
+
+the spider is only for macOS or linux
+
+if you use it on Windows, please modify file_save_url and file_path in estertion_voice.py
