@@ -9,7 +9,7 @@ movie_url = "https://redive.estertion.win/movie/"
 
 
 def down_sound():
-    # 首先取出 https://redive.estertion.win/sound/ 中所有分类的路径
+    # 首先取出 sound_url 中所有分类的路径
     category_response = requests.get(sound_url)
     category_list_html = BeautifulSoup(category_response.text, features="html.parser")
     category_list = category_list_html.select('a')
@@ -59,11 +59,11 @@ def down_sound():
 
 
 def down_movie():
-    # 首先取出 https://redive.estertion.win/movie/ 中所有分类的路径
+    # 首先取出 movie_url 中所有视频的路径
     movie_response = requests.get(movie_url)
     movie_list_html = BeautifulSoup(movie_response.text, features="html.parser")
     movie_list = movie_list_html.select('a')
-    # 然后取出每个分类中音频集合的路径
+    # 拼接每个视频的完整链接
     for movie in movie_list[1:]:
         file_download_url = movie_url + movie['href']
         file_save_url = "./movie/" + movie['href']
