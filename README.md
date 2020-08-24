@@ -1,4 +1,4 @@
-# estertion-redive-sound-spider
+# estertion-redive-spider
 
 spider for download all files from https://redive.estertion.win/sound/ and https://redive.estertion.win/movie/
 
