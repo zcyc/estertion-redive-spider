@@ -1,7 +1,7 @@
 # estertion-redive-spider
 
-spider for download all files from https://redive.estertion.win/sound/ and https://redive.estertion.win/movie/
+一个爬虫，用来下载 https://redive.estertion.win/sound/ 和 https://redive.estertion.win/movie/ 的文件
 
-the spider is only for macOS or linux
+只能在 mac 和 linux 使用
 
-if you use it on Windows, please modify file_save_url and file_path in estertion_voice.py
+如果你要在 Windows 使用，请修改 estertion_voice.py 中的 file_save_url 和 file_path 
